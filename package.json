@@ -1,0 +1,23 @@
+{
+  "name": "web-1-lab-day-4-dom-elliecorner",
+  "version": "1.0.0",
+  "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/DZFQvshY) # Web 1 - Lab Day (Forms + DOM)",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch scss/styles.scss:css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cornerstone-CICCC/web-1-lab-day-4-dom-ellieCorner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cornerstone-CICCC/web-1-lab-day-4-dom-ellieCorner/issues"
+  },
+  "homepage": "https://github.com/Cornerstone-CICCC/web-1-lab-day-4-dom-ellieCorner#readme",
+  "dependencies": {
+    "sass": "^1.89.2"
+  }
+}
