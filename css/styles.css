@@ -51,5 +51,56 @@ body {
   flex: 1;
   padding: 0.25rem;
 }
+.container #employees {
+  flex: 2;
+  overflow-x: auto;
+}
+.container #employees table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 0.95rem;
+}
+.container #employees table thead {
+  background-color: #e0e0e0;
+}
+.container #employees table thead th {
+  padding: 0.75rem;
+  font-weight: bold;
+}
+.container #employees table tbody tr {
+  background-color: #efefef;
+  transition: background-color 0.2s ease;
+}
+.container #employees table tbody tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+.container #employees table tbody tr td {
+  padding: 0.75rem;
+  vertical-align: middle;
+}
+.container #employees table tbody tr td:first-child {
+  width: 60px;
+}
+
+.employee-photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.delete-btn {
+  padding: 0.25rem 0.5rem;
+  border: 1px solid #999;
+  background-color: #e0e0e0;
+  color: #222;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.delete-btn:hover {
+  background-color: #c5c5c5;
+}
 
 /*# sourceMappingURL=styles.css.map */

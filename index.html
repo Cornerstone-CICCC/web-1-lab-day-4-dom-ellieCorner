@@ -1,66 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Canada Employees</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Canada Employees</title>
 
-  <link rel="stylesheet" href="./css/styles.css">
-</head>
-<body>
-  <div class="container">
-    <form action="index.html" enctype="multipart/form-data">
-      <fieldset>
-        <legend>Personal Information</legend>
-        <label>
-          <span>First Name</span>
-          <input type="text" name="firstname" id="firstname" autocomplete="off">
-        </label>
-        <label>
-          <span>Last Name</span>
-          <input type="text" name="lastname" id="lastname" autocomplete="off">
-        </label>
-        <label>
-          <span>Email</span>
-          <input type="email" name="email" id="email" autocomplete="off">
-        </label>
-        <label>
-          <span>Hire Date</span>
-          <input type="date" name="hire_date" id="hire_date">
-        </label>
-      </fieldset>
-      <fieldset>
-        <legend>Profile Photo</legend>
-        <label>
-          <span>Upload photo</span>
-          <input type="file" name="photo" accept=".jpg, .png">
-        </label>
-      </fieldset>
-      <fieldset class="form__btns">
-        <legend>Confirm Submission</legend>
-        <button type="reset">Reset</button>
-        <button type="submit">Add Employee</button>
-      </fieldset>
-    </form>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="index.html" enctype="multipart/form-data">
+        <fieldset>
+          <legend>Personal Information</legend>
+          <label>
+            <span>First Name</span>
+            <input
+              type="text"
+              name="firstname"
+              id="firstname"
+              autocomplete="off"
+            />
+          </label>
+          <label>
+            <span>Last Name</span>
+            <input
+              type="text"
+              name="lastname"
+              id="lastname"
+              autocomplete="off"
+            />
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" id="email" autocomplete="off" />
+          </label>
+          <label>
+            <span>Hire Date</span>
+            <input type="date" name="hire_date" id="hire_date" />
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Profile Photo</legend>
+          <label>
+            <span>Upload photo</span>
+            <input type="file" name="photo" id="photo" accept=".jpg, .png" />
+          </label>
+        </fieldset>
+        <fieldset class="form__btns">
+          <legend>Confirm Submission</legend>
+          <button type="reset">Reset</button>
+          <button type="submit">Add Employee</button>
+        </fieldset>
+      </form>
 
-    <div id="employees">
-      <table cellspacing="0" cellpadding="0">
-        <thead>
-          <th>Photo</th>
-          <th>First Name</th>
-          <th>Last Name</th>
-          <th>Email</th>
-          <th>Hire Date</th>
-          <th>Actions</th>
-        </thead>
-        <tbody id="employeeList">
-          <!-- THIS IS WHERE THE LIST OF EMPLOYEES WILL APPEAR -->
-          <!-- USE JAVASCRIPT TO ADD EACH EMPLOYEE -->
-        </tbody>
-      </table>
+      <div id="employees">
+        <table cellspacing="0" cellpadding="0">
+          <thead>
+            <th>Photo</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Hire Date</th>
+            <th>Actions</th>
+          </thead>
+          <tbody id="employeeList">
+            <!-- THIS IS WHERE THE LIST OF EMPLOYEES WILL APPEAR -->
+            <!-- USE JAVASCRIPT TO ADD EACH EMPLOYEE -->
+          </tbody>
+        </table>
+      </div>
     </div>
-  </div>
 
-  <script src="./js/app.js"></script>
-</body>
+    <script src="./js/app.js"></script>
+  </body>
 </html>
